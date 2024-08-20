@@ -1,2 +1,26 @@
 venv
 .idea
+
+.DS_Store
+__pycache__
+
+*.tfstate
+*.tfstate.*
+
+crash.log
+
+*~
+
+.terraform/
+
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore .tfvars files as they can contain sensitive data
+#*.tfvars
+#*.tfvars.json
+
+*.tfplan
+.terraform.lock.hcl
