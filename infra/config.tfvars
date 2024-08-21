@@ -11,7 +11,6 @@ emr_core_instance_type = "m5.xlarge"
 emr_core_instance_count = "2"
 
 name_bucket       = "narwhal-327498361889"
-name_emr          = "narwhal-emr-327498361889"
 versioning_bucket = "Enabled"
 files_bucket      = "./pipeline"
 files_data        = "./dados"
